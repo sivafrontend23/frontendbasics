@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+    color:#000;
+}
+.headingOne{
+    color: rebeccapurple;
+}
+.headingTwo{
+    color: royalblue;
+    font-weight: bold;
+}
+.simpleclassSel{
+    color:red;
+    text-align: center;
+}
+#simpleidSel{
+    color:orchid;
+    text-align: left;
+}
+[href*='example.com']{
+    color:orangered;
+    text-decoration: none;
+}

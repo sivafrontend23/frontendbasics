@@ -1,0 +1,10 @@
+/* Intermediate 2 column */
+.citiesList{
+    column-count:2;
+    column-gap:2em;
+    max-width: fit-content;
+}
+
+/* Create a sticky footer (footer should stick to the bottom of the 
+viewport if content is short, but move down with content if it's long).  */
+
