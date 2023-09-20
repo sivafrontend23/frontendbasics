@@ -1,23 +1,37 @@
 body{
-    background-color: bisque;
-    color:#000;
+    margin:0px;
 }
-.headingOne{
-    color: rebeccapurple;
-}
-.headingTwo{
-    color: royalblue;
-    font-weight: bold;
-}
-.simpleclassSel{
-    color:red;
+.header{
     text-align: center;
 }
-#simpleidSel{
-    color:orchid;
-    text-align: left;
+.nav-menu{
+    background-color:navajowhite;
+    list-style: none;
+    overflow: hidden;
 }
-[href*='example.com']{
-    color:orangered;
+.nav-menu a{
+    display: block;
+    padding:20px;
+    float: left;
     text-decoration: none;
+}
+.content{
+    background-color: blanchedalmond;
+    padding:20px;
+}
+.content a{
+    color:aquamarine;
+}
+.content a:hover{
+    color:red;
+    text-decoration: border 2px solid red;
+}
+p:first-child{
+    color:orange;
+}
+p:last-child{
+    background-color:purple;
+}
+.footer{
+    text-align: center;
 }

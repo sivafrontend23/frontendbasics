@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selectors and Basic Styling</title>
+    <title>Pseudo selectors</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Selectors and Basic Styling</h1>
-    <!-- Style a webpage with a given set of HTML elements using only class and ID selectors -->
-    <h2 class="headingOne">Simple Selectors</h2>
-        <!-- Class selectors -->
-        <h4 class="headingTwo">Class selectors</h4>
-        <p class="simpleclassSel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus turpis feugiat vulputate dignissim. Nullam interdum porttitor egestas. Pellentesque ullamcorper nisl in sodales bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ut mauris vel dolor semper tincidunt. Aliquam sed orci eget magna fermentum lobortis. Donec faucibus imperdiet nisl sed tincidunt. Nunc eleifend, dui sit amet tempor imperdiet, nulla enim finibus tellus, et fringilla ligula sem et urna. Fusce dapibus elementum urna quis tempus. Maecenas pellentesque sed augue a maximus. Sed mollis et sem in lobortis. Nunc suscipit egestas blandit. Maecenas suscipit porta suscipit. </p>
-        <!-- ID selectors -->
-        <h4 class="headingTwo">ID selectors</h4>
-        <p id="simpleidSel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus turpis feugiat vulputate dignissim. Nullam interdum porttitor egestas. Pellentesque ullamcorper nisl in sodales bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ut mauris vel dolor semper tincidunt. Aliquam sed orci eget magna fermentum lobortis. Donec faucibus imperdiet nisl sed tincidunt. Nunc eleifend, dui sit amet tempor imperdiet, nulla enim finibus tellus, et fringilla ligula sem et urna. Fusce dapibus elementum urna quis tempus. Maecenas pellentesque sed augue a maximus. Sed mollis et sem in lobortis. Nunc suscipit egestas blandit. Maecenas suscipit porta suscipit. </p>
-        <h4 class="headingTwo">Attribute selectors</h4>
-        <p id="simpleattrSel"><a href="https://www.example.com">Attribute selector</a></p>
-    <h2 class="headingOne">Pseudo Selectors</h2>   
-
-    </body>
+    <h1>Pseudo selectors</h1>
+    <div class="header">
+        Header
+    </div>
+    <div class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+    </div>
+    <div class="content">
+            <p>
+                 Its used to style a content   <!-- style first line of a paragraph  -->
+                    <li>Style an element when a user mouses over it</li>
+                    <li>Style visited and unvisited links differently</li>
+                    <li>Style an element when it gets focus</li>
+            </p>
+            <p>Hover over a link <a href="#">This is a link</a></p>
+            <p>Second child link <a href="#">This is second child link</a></p>
+    </div>
+    <div class="footer">
+        Contact Us Info
+    </div>
+</body>
 </html>
