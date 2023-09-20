@@ -1,0 +1,12 @@
+.container{
+    display:inline-flex;
+    background-color: bisque;
+    gap:10px;
+    flex-direction: column;
+}
+.container > *{
+    flex-basis: 100px;   
+}
+li{
+    list-style: none;
+}

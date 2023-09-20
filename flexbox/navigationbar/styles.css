@@ -1,0 +1,12 @@
+p{
+    margin:0;
+}
+.container{
+    padding:15px;
+    display:flex;
+    gap:10px;
+    background-color: aquamarine;
+}
+li{
+    list-style: none;
+}
