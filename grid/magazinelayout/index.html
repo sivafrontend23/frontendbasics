@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magazine Layout - Nested Grid</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Magazine Layout - Nested Grid</h1>
+    <div class="grid-container">
+      <div class="grid-item red">A</div>
+      <div class="grid-item purple">B</div>
+      <div class="grid-item orange">C</div>
+      <div class="grid-item yellow">
+        <!-- <div class="sub-container"> -->
+        <div class="grid-subitem olive">E</div>
+        <div class="grid-subitem green">
+          <figure class="gallery__item gallery__item--1">
+            <img src="image1.avif" alt="" class="gallery__img" />
+          </figure>
+        </div>
+        <div class="grid-subitem darkgreen">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </body>
+</html>
