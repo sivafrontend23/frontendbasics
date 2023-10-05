@@ -1,0 +1,50 @@
+$bg-color: navajowhite;
+$childcolor: orange;
+$fontfamily: sans-serif;
+body {
+  margin: 0px;
+  font-family: $fontfamily;
+}
+.header {
+  text-align: center;
+}
+
+.nav-menu {
+  background-color: $bg-color;
+  list-style: none;
+  overflow: hidden;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 20px;
+  float: left;
+  text-decoration: none;
+}
+.content {
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+.content a {
+  color: aquamarine;
+}
+.content a:hover {
+  color: red;
+  text-decoration: border 2px solid red;
+}
+p:first-child {
+  color: $childcolor;
+}
+p:first-child {
+  color: $childcolor;
+}
+p:last-child {
+  background-color: $childcolor;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: $bg-color;
+  height: 20px;
+}
