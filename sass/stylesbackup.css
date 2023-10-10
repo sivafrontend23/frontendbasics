@@ -1,20 +1,14 @@
-$bg-color: navajowhite;
-$childcolor: orange;
-$fontfamily: "Poppins", Helvertica, sans-serif;
 body {
   margin: 0px;
-  font-family: $fontfamily;
 }
 .header {
   text-align: center;
 }
-
 .nav-menu {
-  background-color: $bg-color;
+  background-color: navajowhite;
   list-style: none;
   overflow: hidden;
 }
-
 .nav-menu a {
   display: block;
   padding: 20px;
@@ -33,18 +27,17 @@ body {
   text-decoration: border 2px solid red;
 }
 p:first-child {
-  color: $childcolor;
+  color: orange;
 }
 p:first-child {
-  color: $childcolor;
+  color: orange;
 }
 p:last-child {
-  background-color: $childcolor;
+  background-color: orange;
 }
-
 .footer {
   text-align: center;
   padding: 20px 10px;
-  background-color: $bg-color;
+  background-color: navajowhite;
   height: 20px;
 }

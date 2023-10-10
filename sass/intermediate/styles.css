@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: "Poppins", Helvertica, sans-serif;
+  background-color: navajowhite;
 }
 
 .header {
@@ -31,8 +32,7 @@ body {
 
 .content a:hover {
   color: red;
-  -webkit-text-decoration: border 2px solid red;
-          text-decoration: border 2px solid red;
+  text-decoration: border 2px solid red;
 }
 
 p:first-child {
@@ -52,4 +52,6 @@ p:last-child {
   padding: 20px 10px;
   background-color: navajowhite;
   height: 20px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
