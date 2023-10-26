@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
+  /*line-height: 1.6;*/
+  background-color: #f49191;
+}
+.main-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+h2 {
+  color: #f0a3a3;
+  text-transform: uppercase;
+  margin-top: 3px 0;
+}
+h4 {
+  font-weight: 100;
+}
+p {
+  margin: 10px 0;
+}
+img {
+  width: 100%;
+}
+.navbar {
+  color: #fff;
+  /*height: 80px;*/
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #333;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.search-bar ul {
+  display: flex;
+}
+.search-bar a {
+  color: #000;
+  /*padding: 20px;*/
+  margin: 0 5px;
+}
+.search-bar .flex {
+  justify-content: space-between;
+}
+.search-bar a :hover {
+  text-decoration: none;
+}
+
+/* main content */
+
+.content {
+  background-color: #eda8a8;
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid blue;
+}
+.grid-container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: auto auto;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-item {
+  border: 3px solid #f49191;
+}
+
+/*  container-footer */
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-item {
+  padding: 10px;
+}
+.footer-item h3 {
+  text-transform: uppercase;
+}
+/*.footer-item li {
+}*/
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .header,
+  .content,
+  .page,
+  .side-bar,
+  .main-container,
+  .footer {
+    width: 100%;
+  }
+  .grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  .header,
+  .content,
+  .page,
+  .side-bar,
+  .main-container,
+  .footer {
+    width: 100%;
+  }
+  .grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+}
