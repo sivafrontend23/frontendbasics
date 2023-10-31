@@ -3,110 +3,147 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce Website - Sells Tech Gadgets</title>
-    <link rel="stylesheet" href="product-details.css" />
+    <title>Ecommerce Website</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="product-details.css" />
   </head>
-</html>
-<body>
-  <div class="main-container">
-    <header>
-      <div class="navbar">
-        <div class="container flex">
-          <h1>
-            <img
-              src="images/logoimage.jpg"
-              alt="logo"
-              width="75"
-              height="75"
-              class="logo-image"
-            />
-          </h1>
-          <nav class="navbar-one">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <nav class="search-bar flex navbar-two">
-            <ul>
-              <li class="shoppingcart-icon"><a href="#"></a></li>
-              <li class="searchbar-icon">
-                <input
-                  type="text"
-                  class="searchbox-type"
-                  placeholder="Search"
-                />
-              </li>
-              <li class="userprofile-icon"><a href="#"></a></li>
-            </ul>
-          </nav>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <label class="logo-image"
+            ><a href="index.html"
+              ><img
+                src="images/logoimage.jpg"
+                alt="logo"
+                width="75"
+                height="75"
+            /></a>
+          </label>
+        </div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li class="main-icons"><a href="#">Home</a></li>
+          <li class="main-icons"><a href="#">Products</a></li>
+          <li class="main-icons"><a href="#">About</a></li>
+          <li class="main-icons"><a href="#">Contact</a></li>
+          <li class="shoppingcart-icon"><a href="#"></a></li>
+          <li class="searchbar-icon">
+            <input type="text" class="searchbox-type" placeholder="Search" />
+          </li>
+          <li class="userprofile-icon"><a href="#"></a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
         </div>
       </div>
-    </header>
-    
-    <main class="content">
+    </nav>
+
+    <main class="page-container">
       <h2>Apple iPhone 13 (256 GB) - Green</h2>
       <div class="grid-container">
         <div class="grid-item">
-          <article>
-            <img src="images/iphone13.jpg" alt="iphone image" width="250" height="250" />
-            <!-- <a href="product-details.html"><h4>Apple iPhone 13 (256 GB) - Green </h4></a>
-            <p>
-              15 cm (6.1-inch) Super Retina XDR display 
-            </p>
-            <p><strong>$65.00</strong></p> -->
-          </article>
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="images/iphone13.jpg"
+                alt="iphone image"
+                width="250"
+                height="250"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img
+                src="images/iphone14plus.jpg"
+                alt="iphone image"
+                width="250"
+                height="250"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img
+                src="images/iphone14promax.jpg"
+                alt="iphone image"
+                width="250"
+                height="250"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img
+                src="images/iphone13.jpg"
+                alt="iphone image"
+                width="250"
+                height="250"
+              />
+            </figure>
+          </div>
         </div>
 
         <div class="grid-item">
           <article>
             <h4>Apple iPhone 14 Pro (128 GB) - Gold</h4>
             <p>
-              15.54 cm (6.1-inch) Super Retina XDR display featuring Always-On and ProMotion 
-              Cinematic mode adds shallow depth of field and shifts focus automatically in your videos 
-              Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording 
+              15.54 cm (6.1-inch) Super Retina XDR display featuring Always-On
+              and ProMotion Cinematic mode adds shallow depth of field and
+              shifts focus automatically in your videos Advanced dual-camera
+              system with 12MP Wide and Ultra Wide cameras; Photographic Styles,
+              Smart HDR 4, Night mode, 4K Dolby Vision HDR recording
             </p>
             <p><strong>$55.00</strong></p>
-            <input type="button" class="btn-style" value="Add to cart">
+            <input type="button" class="btn-style" value="Add to cart" />
           </article>
         </div>
-
-        
-  </div>
-</main>
+      </div>
+    </main>
 
     <footer>
       <div class="container-footer">
-          <div class="footer-item">
-            <h3>Support</h3>
-            <ul>
-              <li>FAQs</li>
-              <li>Customer Service</li>
-            </ul>
-          </div>
-          <div class="footer-item">
-            <h3>Legal</h3>
-            <ul>
-              <li>Privacy Policy</li>
-              <li>Terms & conditions</li>
-            </ul>
-          </div>
-          <div class="footer-item">
-            <h3>Follow Us</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-            </ul>
-          </div>
+        <div class="footer-item">
+          <h3>Support</h3>
+          <ul>
+            <li>FAQs</li>
+            <li>Customer Service</li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3>Legal</h3>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Terms & conditions</li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
       </div>
-  </footer>
-</div>
-</body>
-</html>
+    </footer>
+    <script>
+      const navbar = document.querySelector(".navbar");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = () => {
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+      };
+      cancelBtn.onclick = () => {
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+      };
 
+      window.onsroll = () => {
+        this.scrollY > 20
+          ? navbar.classList.add("sticky")
+          : navbar.classList.remove("sticky");
+      };
+    </script>
+  </body>
+</html>
